@@ -20,6 +20,7 @@ class NavComp extends HTMLElement {
 
             nav {
                 position: fixed;
+                z-index: 10;
                 inset: auto 2rem 5vh auto;
                 padding: 2rem 1.1rem;
                 display: flex;
