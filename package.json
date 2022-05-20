@@ -1,0 +1,13 @@
+{
+	"name": "small-smor-portfolio",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite src",
+		"build": "vite src build",
+		"preview": "vite src preview"
+	},
+	"devDependencies": {
+		"vite": "^2.9.9"
+	}
+}
