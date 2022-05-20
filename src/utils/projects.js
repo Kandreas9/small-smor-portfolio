@@ -18,4 +18,17 @@ export const projects = [
 		imgSrc: 'webjamRecap',
 		imgAlt: 'img of a roadmap for me and one of my friends tech journey.',
 	},
+	{
+		href: 'https://webjam-flash.netlify.app/',
+		title: 'Webjam Flash',
+		imgSrc: 'webjamFlash',
+		imgAlt: 'img of poster like page coming to life thru the power of threeJS',
+	},
+	{
+		href: 'https://webjam-tornado.netlify.app/',
+		title: 'Webjam Tornado',
+		imgSrc: 'webjamTornado',
+		imgAlt:
+			'a img of my fun and educational site inspired by a lot of tornado chaser videos',
+	},
 ]

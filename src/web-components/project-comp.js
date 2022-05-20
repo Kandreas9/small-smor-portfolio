@@ -1,6 +1,8 @@
 import dynamic from '../images/dynamic-profile-readme.png'
 import userAvatar from '../images/user-avatar.png'
 import webjamRecap from '../images/webjam-recap.png'
+import webjamFlash from '../images/webjam-flash.png'
+import webjamTornado from '../images/webjam-tornado.png'
 
 class ProjectComp extends HTMLElement {
 	constructor() {
@@ -17,6 +19,12 @@ class ProjectComp extends HTMLElement {
 				break
 			case 'webjamRecap':
 				this.imgSrc = webjamRecap
+				break
+			case 'webjamFlash':
+				this.imgSrc = webjamFlash
+				break
+			case 'webjamTornado':
+				this.imgSrc = webjamTornado
 				break
 			default:
 				this.imgSrc = dynamic
