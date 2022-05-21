@@ -33,7 +33,7 @@ class NavComp extends HTMLElement {
             }
 
             .bigger {
-                height: 90vh;
+                height: 80vh;
             }
 
             .glassy {
