@@ -60,6 +60,8 @@ class ProjectComp extends HTMLElement {
                     justify-content: center;
                     max-width: 23rem;
                     width: 14rem;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
                 }
 
                 .project-title {
