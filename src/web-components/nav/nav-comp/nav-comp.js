@@ -29,7 +29,6 @@ class NavComp extends HTMLElement {
                 flex-direction: column;
                 transition: height 0.4s ease-in-out;
                 height: 58px;
-                cursor: pointer;
             }
 
             .bigger {

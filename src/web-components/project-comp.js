@@ -38,8 +38,6 @@ class ProjectComp extends HTMLElement {
 			? this.getAttribute('title')
 			: 'Dynamic Profile Readme'
 
-		console.log('projecct', this.imgAlt)
-
 		const template = document.createElement('template')
 		template.innerHTML = `
             <style>
@@ -75,7 +73,6 @@ class ProjectComp extends HTMLElement {
                 }
 
                 .img {
-                    transition: all 2s;
                     height: 8rem;
                 }
 
