@@ -86,17 +86,18 @@ class NavComp extends HTMLElement {
 		const menu = this.shadowRoot.querySelector('.menu')
 
 		navCompToggle.addEventListener('open-menu', (e) => {
-			console.log('hapened')
 			nav.classList.toggle('bigger')
+			let active = e.detail
 
-			if (e.detail) {
+			if (active) {
+				console.log(active)
 				removeAddClass(menu, 'fadeOut', 'fadeIn')
 				setTimeout(() => {
-					menu.classList.toggle('hide', !e.detail)
+					menu.classList.toggle('hide')
 				}, 250)
-			} else {
-				removeAddClass(menu, 'fadeIn', 'fadeOut')
-				menu.classList.toggle('hide', !e.detail)
+			} else if (!active) {
+				// removeAddClass(menu, 'fadeIn', 'fadeOut')
+				menu.classList.toggle('hide')
 			}
 		})
 	}
