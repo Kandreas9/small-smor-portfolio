@@ -2,9 +2,10 @@
 	"name": "small-smor-portfolio",
 	"private": true,
 	"version": "0.0.0",
+	"main": "dist",
 	"scripts": {
-		"dev": "vite src",
-		"build": "vite src build",
+		"dev": "vite",
+		"build": "vite build",
 		"preview": "vite src preview"
 	},
 	"devDependencies": {
